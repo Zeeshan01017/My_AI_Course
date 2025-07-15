@@ -1,6 +1,6 @@
-a = 5
+a = 100
 
-b = 2
+b =200
 
 # equal to operator
 print('a == b =', a == b)
