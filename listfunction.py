@@ -1,13 +1,14 @@
-student_info = [6,2.34,"Zeeshan",799,True]
-print(student_info)
-print(type(student_info))
-print(type(student_info[1]))
-print(student_info[2])
-student_info.append("lahore")
-print(student_info)
-student_info.insert(1,5.8)
-print(student_info)
-student_info.remove(799)
-print(student_info)
-student_info.pop(4)
-print(student_info)
+mysaved_data = [.6,353,"Zeeshan","Allah dad","cricket",23,5.10,[87,70,90,95]]
+
+print(mysaved_data)
+print(type(mysaved_data))
+for item in mysaved_data:
+    print(item)
+mysaved_data.append("123")
+print(mysaved_data)
+mysaved_data.insert(2,True)
+print(mysaved_data)
+mysaved_data.remove(7.6)
+print(mysaved_data)
+del mysaved_data[2]
+print("after del: ",mysaved_data)

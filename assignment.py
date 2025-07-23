@@ -1,10 +1,5 @@
-myvaraible = 100
+s = input("Enter a string: ")
 
-myvaraible += 200
-print("myvarable += : ", myvaraible)
+new_string = s[0] + s[len(s)//2] + s[-1]
 
-myvaraible -= 200
-print("myvarable -= : ", myvaraible)
-
-myvaraible *= 200
-print("myvarable *= : ", myvaraible)
+print("New string:", new_string)
