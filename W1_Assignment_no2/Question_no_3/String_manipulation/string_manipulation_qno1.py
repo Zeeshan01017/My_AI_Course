@@ -13,3 +13,5 @@ if is_pangram(input_string):
     print("The sentence is a pangram.")
 else:
     print("The sentence is not a pangram.")
+
+    

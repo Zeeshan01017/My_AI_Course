@@ -133,7 +133,7 @@ read = input("Wait for me....")
 
 
 """"kind="kde" in Seaborn specifies the use of Kernel Density Estimation plots. KDE plots visualize the probability density of a continuous variable. Instead of discrete bins like in histograms, KDE plots use a continuous curve to estimate the underlying distribution of the data. This provides a smoother and often more informative representation of the data's distribution, especially for continuous variables."""
-#kind='kde'
+#nkid='kde'
 g=sns.displot(data=dffilter, x="price" , y="date_added" , kind='kde'  )
 g.figure.suptitle("sns.displot(data=dffilter, x=price , y=date_added , kind='kde'  )"  )
 
