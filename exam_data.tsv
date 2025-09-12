@@ -1,0 +1,11 @@
+	name	score	attempts	qualify
+a	Anastasia	12.5	1	True
+b	Dima	9.0	3	False
+c	Katherine	16.5	2	True
+d	Suresh	11.5	3	False
+e	Emily	9.0	2	False
+f	Michael	20.0	3	True
+g	Matthew	14.5	1	True
+h	Laura		1	False
+i	Kevin	8.0	2	False
+j	Jonas	19.0	1	True
