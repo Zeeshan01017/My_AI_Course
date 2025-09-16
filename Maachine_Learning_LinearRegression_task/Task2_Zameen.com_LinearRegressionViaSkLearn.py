@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-df = pd.read_csv("W4_Assignment/zameencom-property-data-By-Kaggle-Short.csv", index_col="property_id", sep=";")
+df = pd.read_csv("Maachine_Learning_LinearRegression_task/zameencom-property-data-By-Kaggle-Short.csv", index_col="property_id", sep=";")
 print("Info(): ", df.info())
 print("datatype(): ", df.dtypes)
 print("describe(): ", df.describe())
