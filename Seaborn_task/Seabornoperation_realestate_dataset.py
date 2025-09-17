@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load dataset
-url = "W3_Assignment/RealEstate-USA.csv"
+url = "Seaborn_task/RealEstate-USA.csv"
 df = pd.read_csv(url)
 
 # Display DataFrame

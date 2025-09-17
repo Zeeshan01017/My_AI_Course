@@ -1,6 +1,6 @@
 import pandas as pd
 
-url = "W2_Assignment/RealEstate-USA.csv"
+url = "Numpy_pandas_Tasks/RealEstate-USA.csv"
 df = pd.read_csv(url)
 
 print("\n--- DataFrame ---")

@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-df = pd.read_csv("W4_Assignment/number-of-registered-medical-and-dental-doctors-by-gender-in-pakistan (1).csv", index_col="Years", sep=",")
+df = pd.read_csv("Maachine_Learning_LinearRegression_task/number-of-registered-medical-and-dental-doctors-by-gender-in-pakistan (1).csv", index_col="Years", sep=",")
 print("Info(): ", df.info())
 print("datatype(): ", df.dtypes)
 print("describe(): ", df.describe())

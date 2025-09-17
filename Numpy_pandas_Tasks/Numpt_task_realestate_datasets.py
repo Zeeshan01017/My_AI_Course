@@ -3,7 +3,7 @@ import pandas as pd
 from scipy import stats
 
 
-file_path = "W2_Assignment/RealEstate-USA.csv"   
+file_path = "Numpy_pandas_Tasks/RealEstate-USA.csv"   
 df = pd.read_csv(file_path)
 
 # Extract required columns as NumPy arrays

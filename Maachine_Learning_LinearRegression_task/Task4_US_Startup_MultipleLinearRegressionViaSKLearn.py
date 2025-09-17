@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 
-df = pd.read_csv("W4_Assignment/50_Startups (1).csv")
+df = pd.read_csv("Maachine_Learning_LinearRegression_task\50_Startups (1).csv")
 print("Info(): ", df.info())
 print("datatype(): ", df.dtypes)
 print("describe(): ", df.describe())
